@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+  h1 {color:lime; text-align:center; background:blue}
+</style>
+<meta charset="ISO-8859-1">
+<title>Inserimento</title>
+</head>
+<body>
+<h1>INSERISCI CONTATTO</h1>
+<hr>
+		<form method="post" action="/ProgettoSettimana7/myservlet">
+			Nome: <input type="text" name="nome"><br><br>
+			Cognome: <input type="text" name="cognome"><br><br>
+			Email: <input type="text" name="email"><br><br>
+			<hr>
+			Numero1: <input type="text" name="numero1"><br><br>
+			Numero2: <input type="text" name="numero2"><br><br>
+<hr>
+			<input type="hidden" name="operazione" value="inserisci">
+			<input type="submit" value="inserisci"><br>
+		</form>
+
+</body>
+</html>
