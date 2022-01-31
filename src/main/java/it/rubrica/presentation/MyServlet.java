@@ -26,7 +26,7 @@ public class MyServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	
+	//Servlet che utilizza il pattern Factory model per decidere quale istanza utilizzare!
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String operazione = request.getParameter("operazione");
